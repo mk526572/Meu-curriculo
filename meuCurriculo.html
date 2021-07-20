@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title>Currículo Codaí</title>
+</head>
+
+<body>
+    <div class="ajuste">
+        <div class="container-fluid container-linear">
+            <div class="row container-card">
+                <div class="col-12 offset-lg-3 col-md-3 col-lg-3 card-col">
+                    <div class="card card-perfil">
+                        <div class="img-perfil-card">
+                            <img src="./imagens/Minha imagen.jpeg"
+                                class=" card-image" alt="imagem de perfil">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title" style="text-align: center;">Maiquel Kornelius</h5>
+                            <hr class="hr">
+                            <p style="text-align: center;">DEVELOPER</p>
+
+                            <div class="botoes-card">
+                                <botton onclick="clickNoSobre()" class="btn mr-1" id="btn-sobre">Sobre</botton>
+                                <button onclick="clickNoProjetos()" class="btn ml-1 btn-card" id="btn-projetos">Projetos</button>
+                            </div>
+
+                            <div class="icon-redes-sociais">
+                                <div class="links-redes-sociais mt-2">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 text-body">
+                    <div class="text" id="texto-1">
+                        <h1 class="title-text">Olá</h1>
+                        <h4 class="title-subtitle">Bem vindo ao meu currículo</h4>
+                        <p>
+                            Eu não sou pessoa de desistir na primeira tentativa, pois acredito que as maiores bençãos estão guardadas para quem se esforça em lutar.
+                        </p>
+                    </div>
+                    
+                    <div class="text" id="texto-2">
+                        <h1 class="title-text">Projetos </h1>
+                        <h4 class="title-subtitle">Alguns projetos que trabalhei.</h4>
+                        <p>
+                        <a target="blank" href="https://www.growdev.com.br">Site da Growdev - Este site foi desenvolvido em ReactJS.</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container">
+        <div class="row text-center" id="footer-elementos">
+            <div class="col-lg-3 col-12">
+                <div>
+                    <h4>Telefone</h4>
+                    <p>(51) 99798-8216</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-12">
+                <div style="padding: 15px 0 15px 0">
+                    <h4>E-mail</h4>
+                    <p>maiquelkornelius526@gmail.com</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-12">
+                <div>
+                    <h4>Siga</h4>
+                    <div class="links-redes-sociais">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="text-align: center;margin-bottom: 10px;">
+            <div class="col-12">
+                <small>© 2020 growdev. All rights reserved <a href="https://www.growdev.com.br"
+                        target="_blank">Growdev</a>.</small>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
